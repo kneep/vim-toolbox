@@ -1,0 +1,15 @@
+[submodule "pack/vendor/start/nerdtree"]
+	path = pack/vendor/start/nerdtree
+	url = git@github.com:preservim/nerdtree.git
+[submodule "pack/vendor/start/nord-vim"]
+	path = pack/vendor/start/nord-vim
+	url = git@github.com:arcticicestudio/nord-vim.git
+[submodule "pack/vendor/start/vim-airline"]
+	path = pack/vendor/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "pack/vendor/start/vim-airline-themes"]
+	path = pack/vendor/start/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "pack/vendor/start/bufexplorer"]
+	path = pack/vendor/start/bufexplorer
+	url = git@github.com:jlanzarotta/bufexplorer.git
