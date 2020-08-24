@@ -13,8 +13,6 @@ endif
 
 set nocompatible
 
-"runtime bundle/vim-pathogen/autoload/pathogen.vim
-"execute pathogen#infect()
 
 set encoding=utf-8
 
@@ -54,8 +52,12 @@ set hlsearch
 "  set background=dark
 "endif
 "let g:solarized_termcolors=256
-colorscheme nord
 
+
+if (has("termguicolors"))
+  set termguicolors
+endif
+colorscheme OceanicNext
 
 " indentation things
 set shiftwidth=4
@@ -149,5 +151,5 @@ nmap <F7> :copen<CR>
 nmap <F8> :cclose<CR>
 
 " vim-airline
-let g:airline_theme='molokai'
+let g:airline_theme='oceanicnext'
 let g:airline#extensions#tabline#enabled=1
