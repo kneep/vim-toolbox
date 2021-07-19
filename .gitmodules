@@ -10,6 +10,9 @@
 [submodule "pack/vendor/start/bufexplorer"]
 	path = pack/vendor/start/bufexplorer
 	url = git@github.com:jlanzarotta/bufexplorer.git
-[submodule "pack/vendor/start/oceanic-next"]
-	path = pack/vendor/start/oceanic-next
-	url = git@github.com:mhartington/oceanic-next.git
+[submodule "pack/vendor/start/oceanic-next-vim"]
+	path = pack/vendor/start/oceanic-next-vim
+	url = git@github.com:adrian5/oceanic-next-vim.git
+[submodule "pack/vendor/start/tagbar"]
+	path = pack/vendor/start/tagbar
+	url = git@github.com:preservim/tagbar.git

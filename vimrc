@@ -2,13 +2,8 @@
 " alvin.cao@gmail.com
 
 if has("gui_running")
-  set guioptions-=m " no menu
-  set guioptions-=T " no toolbar
-  au GUIEnter * simalt ~x " maximise window
-  if has("win32")
-    set guifont=Cascadia\ Code:h10
-    set guifontwide=Sarasa\ Mono\ SC:h11
-  endif
+  set guifont=Fira\ Code\ Retina:h13
+  "set guifontwide=Sarasa\ Mono\ SC:h11
 endif
 
 set nocompatible
